@@ -1,4 +1,3 @@
-
 def even_or_odd(number):
     """
     Create a function that will tell if a number is even or odd. Use two if statements to do this.
@@ -7,6 +6,15 @@ def even_or_odd(number):
     """
     pass
 
+
+def even_or_odd(number):
+    if number % 2 == 0:
+        print("this number is even")
+
+    elif number % 1 == 0:
+        print("this number is odd")
+
+number=int(
 
 def main():
     # First, make sure to delete the word "pass" then get input from the user.
